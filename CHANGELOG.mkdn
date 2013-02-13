@@ -70,6 +70,7 @@ Maintainers:
 * Motorola Photon (sunfire): cybik
 * LGE Optimus Me: Ron Gokhle
 * Skate (Monte Carlo, SFR Staraddict, others): Lalit Maganti
+* HTC Touch HD : Fagyi
 
 Translators:
 ------------
