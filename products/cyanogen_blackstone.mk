@@ -11,9 +11,9 @@ $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 # Setup device specific product configuration.
 #
 
-PRODUCT_NAME := Blackstone
+PRODUCT_NAME := cyanogen_blackstone
 PRODUCT_BRAND := HTC
-PRODUCT_DEVICE :=Blackstone
+PRODUCT_DEVICE :=blackstone
 PRODUCT_MODEL := HTC Touch HD
 PRODUCT_MANUFACTURER := HTC
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=passion BUILD_ID=GRI40 BUILD_FINGERPRINT=google/passion/passion:2.3.3/GRI40/102588:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.3 GRI40 102588 release-keys"
@@ -29,8 +29,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
 # Release name and versioning
-PRODUCT_RELEASE_NAME := Blackstone
-PRODUCT_VERSION_DEVICE_SPECIFIC := Blackstone
+PRODUCT_RELEASE_NAME := blackstone
+PRODUCT_VERSION_DEVICE_SPECIFIC := blackstone
 -include vendor/cyanogen/products/common_versions.mk
 
 PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-linux-arm-hero.map
